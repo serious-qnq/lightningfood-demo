@@ -3,6 +3,12 @@ server:
 spring:
   main:
     allow-bean-definition-overriding: true
+  redis:
+    host: 192.168.184.128
+    port: 6379
+    password: 990602
+    database: 0
+
 
   application:
     name: lightningfood-demo
@@ -23,3 +29,4 @@ mybatis-plus:
 
 lightningfood:
   path: D:\img\
+
